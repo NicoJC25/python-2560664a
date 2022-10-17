@@ -4,9 +4,10 @@ numero3 = int(input('Ingrese el tercer numero:' ))
 
 mitad = numero1 
 
-if numero2 > mitad:
+if numero2 < mitad:
     mitad = numero2
-elif numero3 > mitad:
+elif numero3 < mitad:
     mitad = numero3
-else:
-    numero1 = mitad
+
+
+print ('El numero del medio es:' ,mitad)
