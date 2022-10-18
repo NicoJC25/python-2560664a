@@ -10,5 +10,7 @@ elif numero1 != numero2 and numero2 == numero3:
     print ('Solo hay 2 numeros iguales')
 elif numero1 != numero3 and numero2 == numero3:
     print ('Solo hay 2 numeros iguales')
+elif numero1 == numero3 and numero2 != numero3:
+    print ('Solo hay 2 numeros iguales')
 else:
     print ('Los 3 numeros son diferentes')
