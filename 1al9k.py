@@ -1,12 +1,12 @@
 numero = int(input('Ponga un numero:' ))
 
-for i in range (0, 10):
+if numero <=0 and numero >=9:
     print ("El numero tiene 1 cifra")
-for i in range (11, 100):
+elif numero <=10 and numero >=99:
     print ("El numero tiene 2 cifras")
-for i in range (101, 1000):
+elif numero <=100 and numero >=999:
     print ('El numero tiene 3 cifras')
-for i in range (1001, 10000):
+elif numero <=1000 and numero >=9999:
     print ('El numero tiene 4 cifras')
-    else:
-        print ('El numero no es valido')
+else:
+    print ('El numero no es valido')
