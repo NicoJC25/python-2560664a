@@ -8,6 +8,5 @@ for i in range (1, N, 1):
     C = A+B
     A = B
     B = C
-
-print (C)
+    print (C)
     
