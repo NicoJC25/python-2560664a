@@ -26,3 +26,7 @@ elif ope == 'multiplicacion':
     Num1 = Num1 * Num2
     Den1 = Den1 * Den2
     print ('La respuesta es: ',Num1, '/' ,Den1 )
+elif ope == 'division':
+    Num1 = Num1 * Den2
+    Den1 = Num2 * Den1
+    print ('La respuesta es: ',Num1, '/' ,Den1 )
