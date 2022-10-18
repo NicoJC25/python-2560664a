@@ -14,3 +14,11 @@ if ope == 'suma':
         Num1 = (Num1 * Den2) + (Num2 * Den1)
         Den1 = Den1 * Den2
         print ('La respuesta es: ',Num1, '/' ,Den1 )
+elif ope == 'resta':
+    if Den1 == Den2:
+        Num1 = Num1 - Num2
+        print ('La respuesta es: ',Num1, '/' ,Den1 )
+    else:
+        Num1 = (Num1 * Den2) - (Num2 * Den1)
+        Den1 = Den1 * Den2
+        print ('La respuesta es: ',Num1, '/' ,Den1 )
