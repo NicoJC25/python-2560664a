@@ -1,4 +1,4 @@
-dia = int(input('Ingrese el dia del año'))
+dia = int(input('Ingrese el dia del año: '))
 
 if dia >0 and dia <=31:
     print ("El mes es Enero")
