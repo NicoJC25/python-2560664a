@@ -4,3 +4,4 @@ C = int(input('Inserte el valor de C: '))
 
 r = (b**2-4*A*C)**0.5
 X1 = (-B + r)/2*A
+X2 = (-B - r)/2*A
