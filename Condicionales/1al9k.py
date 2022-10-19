@@ -1,4 +1,4 @@
-numero = int(input('Ponga un numero:' ))
+numero = int(input('Ponga un numero: '))
 
 if numero >=0 and numero <=9:
     print ("El numero tiene 1 cifra")
