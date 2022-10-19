@@ -1,10 +1,7 @@
-from setuptools import sic
-
-
 A=0
 B=0
 C=0
-Z=0
+X=0
 
 
 P = input('¿Desea poner el valor de A?: ')
