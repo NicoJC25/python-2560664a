@@ -5,3 +5,11 @@ C = int(input('Inserte el valor de C: '))
 r = (b**2-4*A*C)**0.5
 X1 = (-B + r)/2*A
 X2 = (-B - r)/2*A
+
+if r == 0:
+    print ('Error')
+elif 2*A == 0:
+    print ('Error')
+else:
+    print (X1)
+    print (X2)
