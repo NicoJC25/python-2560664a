@@ -6,7 +6,7 @@ vuelta=0
 if Angulo>=360:
     vuelta=Angulo//360
     Angulo%=360
-    if Angulo==1:
+    if vuelta==1:
         print('Se realizo',vuelta,'vuelta a la circunferencia') #Si es igual a 1, cambiar el mensaje para que tenga sentido
     else:
         print('Se realizaron',vuelta,'vuelta a la circunferencia')
