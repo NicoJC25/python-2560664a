@@ -1,3 +1,5 @@
+'''Solicite al usuario una cantidad numérica que expresa segundos (medida de
+tiempo). Exprésela (conviértala) en horas minutos y segundos. Según el caso'''
 #Pedir segundos y crear variables
 Pedir_segundos=int(input('¿Cuantos segundos quiere convertir?: '))
 Minutos=0

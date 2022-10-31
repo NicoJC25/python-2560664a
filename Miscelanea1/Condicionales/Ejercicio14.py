@@ -1,3 +1,6 @@
+'''Solicite un Angulo al usuario en grados. Diga en que cuadrante está. Diga
+además en que vuelta está sabiendo que cada 360 grados se completa una
+vuelta a la circunferencia. Además diga el resultado en radianes.'''
 #Pedir el valor
 Angulo=int(input('Ingrese el angulo en forma de grados: '))
 Radianes=3.1416*Angulo/180 #Ecuacion a radianes
