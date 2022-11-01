@@ -1,8 +1,8 @@
 '''Calcular todos los números de 3 cifras tales que la suma
 de los cubos de las cifras es igual al valor del número.'''
-#Asignar vairable valor
+#Asignar variable valor
 valor = 0
-for n in range (100, 1000+1): #Para n en rango de 100 a 1000, valor sera igual a n
+for n in range (100, 1000+1): #Para n en rango de 100 a 1000, valor sera igual a n, para guardar el primero valor
     valor = n
     u=n%10 #Las unidades se sacan usando el mod con la ultima cifra del numero, sacando este ultimo valor
     n=n//10 #Luego se quita el restante del numero para pasar a la siguiente cifra dividiendo entre 10
