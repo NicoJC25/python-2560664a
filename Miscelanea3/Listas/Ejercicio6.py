@@ -1,6 +1,6 @@
 import random
 '''Llene una lista con la serie de Fibonacci. La cantidad de elementos de la lista la debe ingresar el usuario. Mínimo debe tener 5 elementos y máximo 20'''
-#Crear una lista vacia y la cantidad de valores que pida el ussuario entre 5 y 20
+#Crear una lista vacia y la cantidad de valores que pida el usuario entre 5 y 20
 vector=[]
 aux=True
 A=0
