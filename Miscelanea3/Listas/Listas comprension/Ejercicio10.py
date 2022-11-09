@@ -6,7 +6,7 @@ promedio=0
 desviacion=0
 rango=random.randint(10,25)
 #Para i en rango de la ecuacion anterior, hacer que los valores de la lista sean aleatorios entre 1 y 100
-vector=[round(random.random()*100)for i in range(rango)]
+vector=[round(random.random()*100)for i in range(rango)]#Lista comprendida donde los numeros de la lista seran de 1 a 100 en el rango de rango
 for i in range(rango):
     suma+=vector[i]#Sumar todos los valores
     promedio=suma//rango#Sacar el promedio

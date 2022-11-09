@@ -3,7 +3,7 @@ import random
 #Crear una lista vacia y la cantidad de valores entre 10 y 25
 rango=random.randint(10,25)
 #Para i en rango de la ecuacion anterior, hacer que los valores de la lista sean aleatorios entre 1 y 100
-vector=[round(random.random()*100)for i in range(rango)]
+vector=[round(random.random()*100)for i in range(rango)]#Lista comprendida donde los numeros de la lista seran de 1 a 100 en el rango de rango
 print('La lista sin ordenar es:',vector)
 #vector.sort hara que se organicen todos los elementos de la lista
 vector.sort()

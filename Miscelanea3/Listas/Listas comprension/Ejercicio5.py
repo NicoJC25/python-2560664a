@@ -6,7 +6,7 @@ Diga cuantas veces está y en que posiciones esta. Si no está agréguelo al fin
 cont=0
 Posicion=''
 rango=random.randint(10,25)
-vector=[round(random.random()*100)for i in range(rango)]
+vector=[round(random.random()*100)for i in range(rango)]#Lista comprendida donde los numeros de la lista seran de 1 a 100 en el rango de rango
 print(vector)
 #Pedir el numero
 Numero=int(input('Elija el numero: '))

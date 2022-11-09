@@ -3,7 +3,7 @@ import random
 #Asignar variables y el rango de la lista
 vecCant=[]
 rango=random.randint(10,25)
-vec=[round(random.random()*100)for i in range(rango)]
+vec=[round(random.random()*100)for i in range(rango)]#Lista comprendida donde los numeros de la lista seran de 1 a 100 en el rango de rango
 print(vec)
 cont=0
 for i in range(len(vec)):#Para i en el rango de la longitud del vector

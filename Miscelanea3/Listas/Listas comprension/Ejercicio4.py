@@ -3,7 +3,7 @@ import random
 Llene la lista con números aleatorios. Ordenar el arreglo, de mayor a menor y de menor a mayor (algoritmo de la burbuja)'''
 #Crear una lista vacia y la cantidad de valores entre 10 y 25
 rango=random.randint(10,25)
-vector=[round(random.random()*100)for i in range(rango)]
+vector=[round(random.random()*100)for i in range(rango)]#Lista comprendida donde los numeros de la lista seran de 1 a 100 en el rango de rango
 print('La lista sin ordenar es:',vector)
 intercambio=True
 while intercambio: #Mientras el intercambio sea verdad, sera falso momentaneamente
