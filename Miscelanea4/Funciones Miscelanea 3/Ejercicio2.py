@@ -5,13 +5,24 @@ def llenar_lista(lista):
 
 lista=llenar_lista(list)
 lista.sort()
-print(lista)
 rango=len(lista)
 
-def par_impar(numero):
-    if numero%2==0 and numero>=2:
-        return 'Par'
-    elif numero==0:
-        return 'El numero es 0'
-    else:
-        return 'Impar'
+def par(lista):
+    print (lista)
+    total_pares=0
+    par=[x for x in lista if x%2==0]
+    for x in range(len(par)):
+        total_pares+=par[x]
+    return total_pares
+
+def impar(lista):
+    total_impares=0
+    impar=[x for x in lista if x%2!=0]
+    for x in range(len(impar)):
+        total_impares+=impar[x]
+    promedio_impares=(total_impares//len(impar))
+    return promedio_impares
+
+print('La longitud de la lista es:',rango,'y los valores de la lista son:',lista)
+print('La suma de los pares fue:',par(lista))
+print ('El promedio de los impares es:',impar(lista))
