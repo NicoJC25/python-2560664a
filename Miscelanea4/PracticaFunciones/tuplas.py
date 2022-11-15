@@ -43,5 +43,10 @@ t1, t2, t3 = t2, t3, t1 #Intecambia valores de tuplas
 
 print(t1, t2, t3)'''
 
+#Se puede eliminar una tupla usando del. Ejemplo:
+'''my_tuple = 1, 2, 3, 
+del my_tuple
+print(my_tuple)    # NameError: name 'my_tuple' is not defined'''
+
 
 
