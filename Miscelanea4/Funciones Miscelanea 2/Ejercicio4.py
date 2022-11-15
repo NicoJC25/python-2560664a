@@ -1,4 +1,4 @@
-def potencia(x,y):
+def potencia(x,y):#Definimos la funcion "potencia"
     i=1
     potent=x
     while(i<y): #Mientras i sea menor al exponente, se ira sumando de 1 en 1 y potencia sera el mismo valor de x multiplicado por si mismo
@@ -9,4 +9,6 @@ def potencia(x,y):
     
     return potent
 
-print(potencia(2,4))
+x=int(input('Ingrese la base: '))#Creamos una variable donde pedir el primer numero
+y=int(input('Ingrese el exponente: '))#Creamos una variable donde pedir el segundo numero
+print(potencia(x,y))#Imprimimos la funcion con las variables "x","y"
