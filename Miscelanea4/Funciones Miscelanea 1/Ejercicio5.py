@@ -6,5 +6,6 @@ def costo_minutos(Minutos):#Definimos la funcion "costo_minutos"
         return Minutos
     else:
         return 'El numero ingresado no es valido'
-    
-print(costo_minutos(5))#Imprimimos la funcion y dentro el numero que queramos comprobar
+
+Minutos=int(input('Ingrese la cantidad de minutos usados: '))#Creamos una variable donde pedir el numero
+print(costo_minutos(Minutos))#Imprimimos la funcion y dentro la variable "Minutos"

@@ -25,5 +25,6 @@ def dias_calendario(dia):#Definimos la funcion "dias_calendario"
         return "El mes es Diciembre"
     else:
         return 'El numero no es valido'
-    
-print(dias_calendario(234))#Imprimimos la funcion y dentro el numero que queramos comprobar
+
+dia=int(input('Escriba el numero de días: '))#Creamos una variable donde pedir el numero
+print(dias_calendario(dia))#Imprimimos la funcion y dentro la variable "dia"

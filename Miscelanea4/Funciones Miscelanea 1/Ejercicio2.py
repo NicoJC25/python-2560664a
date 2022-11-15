@@ -11,5 +11,6 @@ def notas(nota):#Definimos la funcion "notas"
         return 'SOBRESALIENTE'
     else:
         return 'El numero no es valido'
-    
-print(notas(10))#Imprimimos la funcion y dentro el numero que queramos comprobar
+
+nota=float(input('Ingrese el numero de la calificacion: '))#Creamos una variable donde pedir el numero
+print(notas(nota))#Imprimimos la funcion y dentro la variable "nota"

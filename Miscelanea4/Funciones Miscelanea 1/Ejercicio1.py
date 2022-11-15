@@ -10,4 +10,5 @@ def cifras(numero):#Definimos la funcion "cifras"
     else:
         return 'El numero no es valido'
     
-print (cifras(1000))#Imprimimos la funcion y dentro el numero que queramos comprobar
+numero=int(input('Ingrese el numero a evaluar las cifras: '))#Creamos una variable donde pedir el numero
+print (cifras(numero))#Imprimimos la funcion y dentro la variable "numero"

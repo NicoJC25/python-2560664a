@@ -8,5 +8,6 @@ def obrero_horas(horas):#Definimos la funcion "obrero_horas"
         horas*=2600
         h2*=5000
         return (horas+h2)
-    
-print(obrero_horas(80))#Imprimimos la funcion y dentro el numero que queramos comprobar
+
+horas=int(input('Ingrese la cantidad de horas trabajadas: '))#Creamos una variable donde pedir el numero
+print('El salario por las obras trabajadas es de',obrero_horas(horas),'pesos')#Imprimimos la funcion y dentro la variable "horas"
