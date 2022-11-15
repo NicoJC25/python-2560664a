@@ -1,5 +1,5 @@
-def dias_calendario(dia):
-    if dia >0 and dia <=31:
+def dias_calendario(dia):#Definimos la funcion "dias_calendario"
+    if dia >0 and dia <=31:#Intervalos con if
         return "El mes es Enero"
     elif dia >=32 and dia <=59:
         return "El mes es Febrero"
@@ -26,4 +26,4 @@ def dias_calendario(dia):
     else:
         return 'El numero no es valido'
     
-print(dias_calendario(234))
+print(dias_calendario(234))#Imprimimos la funcion y dentro el numero que queramos comprobar
