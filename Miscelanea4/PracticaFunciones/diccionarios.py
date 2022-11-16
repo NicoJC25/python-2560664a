@@ -92,9 +92,9 @@ print(dictionary)    # salida: {'gato': 'chat', 'perro': 'chien'}'''
 #Programa usando todo lo anterior, el programa trata de poner nombres de estudiantes y sus notas, luego sacar el promedio de estas notas. Atento a la explicacion de cada linea:
 school_class = {} #Diccionario vacio
 
-'''while True: #Mientras sea verdad (esto es un bucle infinito)
-    name = input("Ingresa el nombre del estudiante: ") #Se pedira el nombre del estudiante
-    if name == '': #Si el nombre es un espacio, break
+while True: #Mientras sea verdad (esto es un bucle infinito)
+    '''name = input("Ingresa el nombre del estudiante: ") #Se pedira el nombre del estudiante
+    if name == ' ': #Si el nombre es un espacio, break
         break
     
     score = int(input("Ingresa la calificación del estudiante (0-10): ")) #Luego se pide la nota
