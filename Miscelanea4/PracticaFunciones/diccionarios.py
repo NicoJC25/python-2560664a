@@ -90,10 +90,10 @@ dictionary.popitem() #Nombre del diccionario .popitem y no poner nada en los par
 print(dictionary)    # salida: {'gato': 'chat', 'perro': 'chien'}'''
 
 #Programa usando todo lo anterior, el programa trata de poner nombres de estudiantes y sus notas, luego sacar el promedio de estas notas. Atento a la explicacion de cada linea:
-school_class = {} #Diccionario vacio
+'''school_class = {} #Diccionario vacio
 
 while True: #Mientras sea verdad (esto es un bucle infinito)
-    '''name = input("Ingresa el nombre del estudiante: ") #Se pedira el nombre del estudiante
+    name = input("Ingresa el nombre del estudiante: ") #Se pedira el nombre del estudiante
     if name == ' ': #Si el nombre es un espacio, break
         break
     
@@ -145,3 +145,10 @@ del pol_esp_dictionary    # elimina el diccionario'''
 copy_dictionary = pol_esp_dictionary.copy() #Nombre del diccionario copia y luego el nombre del diccionario original .copy()'''
 
 #Al copiar un diccionario en otro, son independientes, por lo cual si se eliminan las palabras de un diccionario, en el otro aun seguiran intactas
+
+#Diccionarios anidados:
+Aprendiz={'Nombre'
+          :{'Primer nombre':'Pedro',
+            'Segundo nombre':'Alberto'},
+          'Documento':12345,
+          'Ficha':2560664}

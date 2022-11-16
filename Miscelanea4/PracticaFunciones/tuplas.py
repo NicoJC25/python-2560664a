@@ -48,5 +48,9 @@ print(t1, t2, t3)'''
 del my_tuple
 print(my_tuple)    # NameError: name 'my_tuple' is not defined'''
 
-
-
+#Ejercicio de tupla llenada por compresion
+'''import random
+tupla=tuple((i for i in range(1,11)))
+print(tupla)
+tupla1=tuple((round(random.random()*100)for i in range(10)))
+print(tupla1)'''

@@ -6,6 +6,5 @@ def multiplo_5(numero):#Definimos la funcion "multiplo_5"
         else:
             i+=5
             print(i)
-
 numero=int(input('Escriba el multiplo de 5: '))#Creamos una variable donde pedir el numero
 print (multiplo_5(numero))#Imprimimos la funcion con la variable "numero"
