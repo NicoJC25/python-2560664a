@@ -48,7 +48,7 @@ for producto in sorted(compra.keys()): #Para el nombre en los datos organizados 
     print(producto, ":", adding / counter) #Finalmente, el programa imprimira el promedio el cual es la suma sobre el contador o rango
     
 #Ejercicio 2
-school_class = {} #Diccionario vacio
+'''school_class = {} #Diccionario vacio
 
 while True: #Mientras sea verdad (esto es un bucle infinito)
     name = input("Ingresa el nombre del estudiante: ") #Se pedira el nombre del estudiante
@@ -63,7 +63,7 @@ while True: #Mientras sea verdad (esto es un bucle infinito)
         school_class[name] += (score,) #Se va a alargar la tupla asociada con la nueva calificacion
     else:
         school_class[name] = (score,) #Si no, se crea una nueva entrada
-'''        
+      
 for name in sorted(school_class.keys()): #Para el nombre en los datos organizados del diccionario
     adding = 0 #Suma
     counter = 0 #Rango

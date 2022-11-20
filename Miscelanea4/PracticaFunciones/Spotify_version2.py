@@ -1,4 +1,3 @@
-import os #Importamos os (os es una libreria que importa funciones dependientes del sistema operativo)
 '''El programa mas complicado hasta el momento, toca crear un diccionario intentando recrear el funcionamiento de spotify, hay 2 formas de hacerlo:
 1. Agregando una cancion y a esa cancion agregar artista, duracion y genero (Que es el caso de este codigo)
 2. Agregando un artista y dentro el genero, la cancion y dentro de la cancion otro diccionario en donde vaya como tal el nombre de la cancion y su respectiva duracion
@@ -6,6 +5,7 @@ import os #Importamos os (os es una libreria que importa funciones dependientes 
 La cancion o artista, la info de la cancion o el artista, que pueda buscar un artista, que pueda buscar una cancion, que pueda eliminar un artista
 o cancion dependiendo de la forma elegida para hacer, mostrar la cancion mas corta y mostrar la cancion mas larga
     A continuacion, el programa "Spotify"'''
+import os #Importamos os (os es una libreria que importa funciones dependientes del sistema operativo)
 
 spotify={} #Spotify sera un diccionario vacio
 def cancion(spotify): #Definimos primero para agregar una cancion
