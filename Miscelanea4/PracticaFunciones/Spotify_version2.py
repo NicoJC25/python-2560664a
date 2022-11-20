@@ -97,6 +97,8 @@ while True: #Mientras sea verdad (bucle infinito)
     elif pedir==5: #Si pedir es igual a 5
         (eliminar_cancion(spotify)) #Funcion de eliminar una cancion
     elif pedir==6: #Si pedir es igual a 6
+        for i in sorted(spotify.keys()):
+            None
         print('Todas las canciones con su informacion respectiva agregada son las siguientes:',spotify) #Imprime el diccionario
     elif pedir==7: #Si pedir es igual a 7
         mayor(spotify) #Funcion de la cancion mas larga

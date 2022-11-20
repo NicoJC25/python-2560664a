@@ -1,31 +1,19 @@
 spotify={}
 def artista(spotify):
     artista=input('Ingrese el nombre del artista: ')
-    spotify.update({artista:{}})
+    genero=input('Ingrese el genero: ')
+    spotify.update({artista:{'Genero':genero}})
     return spotify
 
 def agregar_cancion(spotify):
     artist=input('Ingrese el nombre del artista: ')
-    genero=input('Ingrese el genero: ')
+    if artist not in spotify:
+        print('El artista no se encuentra, agreguelo primero')
+        return spotify
     can=input('Ingrese una cancion del artista: ')
     duracion=input('Ingrese la duracion en formato xx(mm):xx(ss)')
     if artist in spotify:
-        spotify.update({artist:{'Genero':genero,['Canciones']:{[can]:duracion}}})
-        spotify[artist]['Canciones'].append(can)
-        print (spotify)
-    else:
-        print('El artista no se encuentra, agreguelo primero')
-    while True:
-            try:
-                pedir=int(input('Si desea agregar otra cancion al mismo artista, presione 1, de lo contrario, presione 0: '))
-            except:
-                print('Ingrese un numero valido')
-            if pedir==1:
-                    can=(input('Ingrese otra cancion del artista: '))
-                    duracion=input('Ingrese la duracion en formato xx(mm):xx(ss)')
-                    spotify[artist]['Canciones']['Cancion'].append(can)
-            elif pedir==0:
-                break
+        spotify[artist]['Canciones']+=[can,duracion]
     return spotify
     
 def buscar_artista(spotify):
