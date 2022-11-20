@@ -12,3 +12,15 @@ elif año%4==0 and año%100==0 and año%400==0:#Si el año es divisible entre 4,
     print('El año es bisiesto')
 
 
+
+
+musica={'cancion':{'artista':'nombre','duracion':'numero','genero':'nombre'},}
+
+print(musica['cancion']['artista'])
+
+
+
+
+
+
+

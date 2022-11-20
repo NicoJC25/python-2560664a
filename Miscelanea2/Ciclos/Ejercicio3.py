@@ -11,10 +11,10 @@ while(n > i):
  if n%i ==0:
   conter=i
  i+=1
-#Para i en el rango de contador mas 1, el valor suma se sumara 1 por 1 hasta cumplir este rando
+#Para i en el rango de contador mas 1, el valor suma se sumara 1 por 1 hasta cumplir este rango
 for i in range(conter + 1):
  suma+=i
-#Si la suma temrina siendo igual que el numero original, es perfecto
+#Si la suma termina siendo igual que el numero original, es perfecto
 if n == suma:
  print("El numero ", n, " es perfecto")
 else:
