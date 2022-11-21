@@ -45,7 +45,7 @@ def mayor(spotify):
         for a in (cancion.values()):
             print(i)
             print(a)
-            minutos=[spotify][i][a:'Duracion'][0]
+            minutos=[spotify][i][a]['Duracion'][0]
     print(minutos)
 
 while True:
